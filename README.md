@@ -1,13 +1,10 @@
 # Remotion video
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.gif">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+
+
+https://user-images.githubusercontent.com/1629785/233837028-8ce3dd74-f10a-4b2f-8005-4da04ca3ab18.mp4
+
+
 
 Welcome to your Remotion project!
 
