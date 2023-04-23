@@ -31,19 +31,12 @@ export const MyComposition = () => {
 			center: [6.5615, 46.0598],
 			pitch: 65,
 			bearing: -180,
-			style: 'mapbox://styles/mapbox/outdoors-v12',
+			style: 'mapbox://styles/jonnyburger/clgtb8stl002z01o5d15ye0u0',
 			interactive: false,
 			fadeDuration: 0,
 		});
 
 		_map.on('style.load', () => {
-			_map.addSource('mapbox-dem', {
-				type: 'raster-dem',
-				url: 'mapbox://mapbox.mapbox-terrain-dem-v1',
-				tileSize: 512,
-				maxzoom: 14,
-			});
-			_map.setTerrain({source: 'mapbox-dem', exaggeration: 1.5});
 			_map.addSource('trace', {
 				type: 'geojson',
 				data: {
