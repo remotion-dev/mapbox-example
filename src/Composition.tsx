@@ -118,7 +118,7 @@ export const MyComposition = () => {
 		});
 
 		map.setFreeCameraOptions(camera);
-		map.once('render', () => continueRender(handle));
+		map.once('idle', () => continueRender(handle));
 	}, [cameraRoute, fps, frame, handle, map, targetRoute]);
 
 	return <AbsoluteFill ref={ref} id="map" />;
